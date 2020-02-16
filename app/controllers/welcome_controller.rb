@@ -4,6 +4,6 @@ class WelcomeController < ApplicationController
 	#Test authentication
 	def index
 		render json: "Welcome #{@current_user.first_name} #{@current_user.last_name}!"
-  	end
+	end
 
 end
